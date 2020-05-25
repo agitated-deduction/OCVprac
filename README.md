@@ -142,3 +142,12 @@ $conda install -c conda-forge opencv
 
 #### cv2.imread(fileName, flag)
 
+
+
+
+-----
+ls -l /dev/vide0 이 있으면 잘 연결되었다는 뜻.
+cap = cv2.VideoCapture(0)하면 0번째(기본으로 설정된) 카메라로 잡음.
+
+/usr/local/share/opencv4/haarcascades
+~/anaconda3/envs/[가상환경 ]/share/opencv4/haarcascades
